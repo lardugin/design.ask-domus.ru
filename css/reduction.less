@@ -1,0 +1,116 @@
+/* Reduction
+----------------------------------------------------------*/
+
+.transform (@transform) {
+	-webkit-transform: @transform;
+	-moz-transform: @transform;
+	-o-transform: @transform;
+	-ms-transform: @transform;
+	transform: @transform;
+}
+
+.transition (@transition) {	
+	-webkit-transition: @transition;
+	-moz-transition: @transition;
+	-o-transition: @transition;
+	-ms-transition: @transition;
+	transition: @transition;
+}
+
+.box-shadow (@box-shadow) {
+	-webkit-box-shadow: @box-shadow;
+	-moz-box-shadow: @box-shadow;
+	box-shadow: @box-shadow;
+}
+
+.box-sizing (@box-sizing) {
+  -webkit-box-sizing: @box-sizing;
+  -moz-box-sizing: @box-sizing;
+  box-sizing: @box-sizing;
+}
+
+.grad (@color-1, @color-2) {
+  background: @color-1; /* Old browsers */
+  background: -moz-linear-gradient(top,  @color-1 0%, @color-2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  @color-1 0%,@color-2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  @color-1 0%,@color-2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@color-1', endColorstr='@color-2',GradientType=0 ); /* IE6-9 */
+}
+
+.grad_gorizont (@color-1, @color-2) {
+  background: @color-1; /* Old browsers */
+  background: -moz-linear-gradient(left,  @color-1 0%, @color-2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  @color-1 0%,@color-2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  @color-1 0%,@color-2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@color-1', endColorstr='@color-2',GradientType=1 ); /* IE6-9 */
+}
+
+.clearfix { 
+  &:after {
+    content: "";
+    display: table;
+    clear: both; 
+  }
+}
+
+.box-sizing {
+  .box-sizing (border-box);
+}
+
+.w10 { width: 10%; }
+.w20 { width: 20%; }
+.w25 { width: 25%; }
+.w30 { width: 30%; }
+.w40 { width: 40%; }
+.w50 { width: 50%; }
+.w60 { width: 60%; }
+.w70 { width: 70%; }
+.w80 { width: 80%; }
+.w90 { width: 90%; }
+.w100 { width: 100%; }
+
+.pad {
+  padding: 0 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.hidden {
+	display:none;
+}
+
+.justify {
+  text-align: justify;
+  line-height: 0;
+  font-size: 1px;
+  text-justify: newspaper;
+  zoom:1;
+  // text-align-last: justify;
+  
+  &:after {
+    width: 100%;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+  }
+  
+ li {
+    display: inline-block;
+    text-align: left;
+    line-height: normal;
+    font-size: 14px;
+    vertical-align: top;
+  }
+}
