@@ -493,8 +493,10 @@
 				<div class="form-box">
 					<div class="form-box__headline">
 						<div class="form-box__title">
-							<span>Акция!</span> скидка 10% <br>
-							На дизайн-проект
+							<!-- <span>Акция!</span> скидка 10% <br>
+							На дизайн-проект -->
+							Заказать <br>
+							дизайн проект
 						</div>
 						<div class="form-box__title_min">При заказе с сайта!</div>
 					</div>
