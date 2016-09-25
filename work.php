@@ -1,8 +1,6 @@
 <div class="work">
 	<div class="work__tab-list">
-		<div class="work__tab-item"><a href="javascript:;">Однокомнатные квартиры</a></div>
-		<div class="work__tab-item"><a href="javascript:;">Двухкомнатные квартиры</a></div>
-		<div class="work__tab-item"><a href="javascript:;">Трехкомнатные квартиры</a></div>
+		<div class="work__tab-item"><a href="javascript:;">Квартиры</a></div>
 		<div class="work__tab-item active"><a href="javascript:;">Загородные дома</a></div>
 		<div class="work__tab-item"><a href="javascript:;">Кухни</a></div>
 		<div class="work__tab-item"><a href="javascript:;">Кабинеты</a></div>
@@ -14,11 +12,7 @@
 	</div>
 	<div class="work__cont-list">
 
-		<?php include "work/room.php"; ?> <!-- Однокомнатные квартиры -->
-
-		<?php include "work/room-2.php"; ?> <!-- Двухкомнатные квартиры -->
-
-		<?php include "work/room-3.php"; ?> <!-- Трехкомнатные квартиры -->
+		<?php include "work/rooms.php"; ?> <!-- Квартиры -->
 
 		<?php include "work/house.php"; ?> <!-- Загородные дома -->
 

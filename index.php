@@ -9,8 +9,8 @@
 	<meta name="yandex-verification" content="8f7443d55d4c23a0" />
 	<meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
 	<title>Авторский дизайн интерьера квартир и загородных домов</title>
-	<!-- <? #php include "lessComp/compact.php"; ?> -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<?php include "lessComp/compact.php"; ?>
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&subset=cyrillic" rel="stylesheet">
 	<!--[if IE 8]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
