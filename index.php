@@ -265,7 +265,7 @@
 								<img src="images/price/icon-1.png" alt="Эскизный">
 							</div>
 							<div class="price-card__price">
-								1 000<span>₽</span> м<sup>2</sup>
+								900<span>₽</span> м<sup>2</sup>
 							</div>
 							<div class="price-card__button">
 								<a href="javascript:;" class="button button_green button_arrow">Подробнее</a>
@@ -275,7 +275,7 @@
 					<div class="price-card_back flipper__area_back flipper__area">
 						<div class="price-card__headline">
 							<span>Эскизный</span>
-							<div class="price-card__price_min">1 000<span>₽</span> м<sup>2</sup></div>
+							<div class="price-card__price_min">900<span>₽</span> м<sup>2</sup></div>
 							<a href="javascript:;" class="price-card-arrow price-card-arrow_back"></a>
 						</div>
 						<div class="price-card__text">

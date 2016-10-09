@@ -17,7 +17,7 @@
 				<a href="images/portfolio/room/na-filyah/4.jpg" rel="room-na-filyah" class="fancybox"></a>
 			</div>
 		</div>
-		<div class="portfolio__item">
+<!-- 		<div class="portfolio__item">
 			<a href="images/portfolio/room/garajnaya/1.jpg" class="fancybox" rel="room-garajnaya">
 				<span class="fake-img" data-src="images/portfolio/room/garajnaya/0.jpg"></span>
 				<div class="portfolio-mask">
@@ -33,7 +33,7 @@
 				<a href="images/portfolio/room/garajnaya/3.jpg" rel="room-garajnaya" class="fancybox"></a>
 				<a href="images/portfolio/room/garajnaya/4.jpg" rel="room-garajnaya" class="fancybox"></a>
 			</div>
-		</div>
+		</div> -->
 		<div class="portfolio__item">
 			<a href="images/portfolio/room-2/sviblovo/1.jpg" class="fancybox" rel="room-2-sviblovo">
 				<span data-src="images/portfolio/room-2/sviblovo/0.jpg" class="fake-img"></span>
@@ -105,7 +105,7 @@
 				<a href="images/portfolio/room-2/lyalin/6.jpg" rel="room-2-lyalin" class="fancybox"></a>
 			</div>
 		</div>
-		<div class="portfolio__item">
+<!-- 		<div class="portfolio__item">
 			<a href="images/portfolio/room-2/vostok/1.jpg" class="fancybox" rel="room-2-vostok">
 				<span data-src="images/portfolio/room-2/vostok/0.jpg" class="fake-img"></span>
 				<div class="portfolio-mask">
@@ -122,7 +122,7 @@
 				<a href="images/portfolio/room-2/vostok/4.jpg" rel="room-2-vostok" class="fancybox"></a>
 				<a href="images/portfolio/room-2/vostok/5.jpg" rel="room-2-vostok" class="fancybox"></a>
 			</div>
-		</div>
+		</div> -->
 		<div class="portfolio__item">
 			<a href="images/portfolio/room-2/korolev/1.jpg" class="fancybox" rel="room-2-korolev">
 				<span data-src="images/portfolio/room-2/korolev/0.jpg" class="fake-img"></span>
@@ -140,7 +140,7 @@
 				<a href="images/portfolio/room-2/korolev/4.jpg" rel="room-2-korolev" class="fancybox"></a>
 			</div>
 		</div>
-		<div class="portfolio__item">
+<!-- 		<div class="portfolio__item">
 			<a href="images/portfolio/room/bicker/1.jpg" class="fancybox" rel="room-bicker">
 				<span class="fake-img" data-src="images/portfolio/room/bicker/0.jpg"></span>
 				<div class="portfolio-mask">
@@ -156,7 +156,7 @@
 				<a href="images/portfolio/room/bicker/3.jpg" rel="room-bicker" class="fancybox"></a>
 				<a href="images/portfolio/room/bicker/4.jpg" rel="room-bicker" class="fancybox"></a>
 			</div>
-		</div>
+		</div> -->
 		<div class="portfolio__item">
 			<a href="images/portfolio/room-3/leninskiy/1.jpg" class="fancybox" rel="room-3-leninskiy">
 				<span class="fake-img" data-src="images/portfolio/room-3/leninskiy/0.jpg"></span>
