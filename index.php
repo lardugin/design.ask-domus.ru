@@ -323,7 +323,7 @@
 						<div class="price-card__text">
 							<div class="pills">&larr; Пакет &laquo;Эскизный&raquo;</div>
 							<ul class="price-card__ul_green">
-								<li>3D визуализацияв перспективе (1 ракурс на помещение)</li>
+								<li>3D визуализация в перспективе (1 ракурс на помещение)</li>
 								<li>План полов (с указанием типа покрытий, площади и расположением теплых полов)</li>
 								<li>План потолков (с указанием типа покрытий и материалов)</li>
 								<li>Схема открывания дверей</li>
@@ -589,7 +589,7 @@
 					</div>
 					<div class="person__info">
 						<div class="person__name">Элина Деревенец</div>
-						<div class="person__position">Руководитель проектов</div>
+						<div class="person__position">Менеджер проектов</div>
 					</div>
 				</div>
 			</div>
@@ -623,6 +623,17 @@
 					<div class="person__info">
 						<div class="person__name">Галина Слесаренко</div>
 						<div class="person__position">Дизайнер</div>
+					</div>
+				</div>
+			</div>
+			<div class="comand__item">
+				<div class="person">
+					<div class="person__foto">
+						<img src="images/foto/golizina.jpg" alt="Александра Голызина">
+					</div>
+					<div class="person__info">
+						<div class="person__name">Александра Голызина</div>
+						<div class="person__position">Комплектатор</div>
 					</div>
 				</div>
 			</div>
@@ -823,7 +834,7 @@
 				<img src="images/elina.jpg" alt="elina">
 				<div class="name">
 					<div class="elina-name">Элина Деревенец</div>
-					<div class="elina-post">Руководитель проектов</div>
+					<div class="elina-post">Менеджер проектов</div>
 				</div>
 			</div>
 		</div>
@@ -926,7 +937,7 @@
 <!-- /Yandex.Metrika counter -->
 
 <!-- Chatra {literal} -->
-<script>
+<!-- <script>
     ChatraID = 'jpHuySbDYjDECGLsq';
     (function(d, w, c) {
         var n = d.getElementsByTagName('script')[0],
@@ -939,9 +950,10 @@
             + '//call.chatra.io/chatra.js';
         n.parentNode.insertBefore(s, n);
     })(document, window, 'Chatra');
-</script>
+</script> -->
 <!-- /Chatra {/literal} -->
 
+<script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=0eea100cd915080ea74d20082461bd2e" charset="UTF-8"></script>
 
 </body>
 </html>
