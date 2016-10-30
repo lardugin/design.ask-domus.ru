@@ -251,7 +251,7 @@
 
 <div class="price-box" id="price">
 	<section class="container">
-		<div class="heading">Цены</div>
+		<div class="heading">Цены на дизайн проект</div>
 		<div class="price-card__list">
 			<div class="price-card__item flip-container">
 				<div class="flipper">
@@ -417,11 +417,12 @@
 							<ul id="project">
 								<li><a href="images/project/luberci/1.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/1.jpg"></li></a>
 								<li><a href="images/project/luberci/2.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/2.jpg"></li></a>
-								<li><a href="images/project/luberci/2-2.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/2-2.jpg"></li></a>
 								<li><a href="images/project/luberci/3.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/3.jpg"></li></a>
 								<li><a href="images/project/luberci/4.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/4.jpg"></li></a>
 								<li><a href="images/project/luberci/5.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/5.jpg"></li></a>
-								<li><a href="images/project/luberci/5-2.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/5-2.jpg"></li></a>
+								<li><a href="images/project/luberci/6.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/6.jpg"></li></a>
+								<li><a href="images/project/luberci/7.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/7.jpg"></li></a>
+								<li><a href="images/project/luberci/8.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/8.jpg"></li></a>
 								<li><a href="images/project/luberci/1-1.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/1-1.jpg"></li></a>
 								<li><a href="images/project/luberci/2-1.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/2-1.jpg"></li></a>
 								<li><a href="images/project/luberci/3-1.jpg" class="fancybox" rel="progect-foto"><img src="images/project/luberci/3-1.jpg"></li></a>
@@ -444,28 +445,29 @@
 							<div class="project-pager" id="bx-pager">
 							  <a data-slide-index="0" href="javascript:;"><img src="images/project/luberci/1.jpg"></a>
 							  <a data-slide-index="1" href="javascript:;"><img src="images/project/luberci/2.jpg"></a>
-							  <a data-slide-index="2" href="javascript:;"><img src="images/project/luberci/2-2.jpg"></a>
-							  <a data-slide-index="3" href="javascript:;"><img src="images/project/luberci/3.jpg"></a>
-							  <a data-slide-index="4" href="javascript:;"><img src="images/project/luberci/4.jpg"></a>
-							  <a data-slide-index="5" href="javascript:;"><img src="images/project/luberci/5.jpg"></a>
-							  <a data-slide-index="6" href="javascript:;"><img src="images/project/luberci/5-2.jpg"></a>
-							  <a data-slide-index="7" href="javascript:;"><img src="images/project/luberci/1-1.jpg"></a>
-							  <a data-slide-index="8" href="javascript:;"><img src="images/project/luberci/2-1.jpg"></a>
-							  <a data-slide-index="9" href="javascript:;"><img src="images/project/luberci/3-1.jpg"></a>
-							  <a data-slide-index="10" href="javascript:;"><img src="images/project/luberci/4-1.jpg"></a>
-							  <a data-slide-index="11" href="javascript:;"><img src="images/project/luberci/5-1.jpg"></a>
-							  <a data-slide-index="12" href="javascript:;"><img src="images/project/luberci/6-1.jpg"></a>
-							  <a data-slide-index="13" href="javascript:;"><img src="images/project/luberci/7-1.jpg"></a>
-							  <a data-slide-index="14" href="javascript:;"><img src="images/project/luberci/8-1.jpg"></a>
-							  <a data-slide-index="15" href="javascript:;"><img src="images/project/luberci/9-1.jpg"></a>
-							  <a data-slide-index="16" href="javascript:;"><img src="images/project/luberci/10-1.jpg"></a>
-							  <a data-slide-index="17" href="javascript:;"><img src="images/project/luberci/11-1.jpg"></a>
-							  <a data-slide-index="18" href="javascript:;"><img src="images/project/luberci/12-1.jpg"></a>
-							  <a data-slide-index="19" href="javascript:;"><img src="images/project/luberci/13-1.jpg"></a>
-							  <a data-slide-index="20" href="javascript:;"><img src="images/project/luberci/14-1.jpg"></a>
-							  <a data-slide-index="21" href="javascript:;"><img src="images/project/luberci/15-1.jpg"></a>
-							  <a data-slide-index="22" href="javascript:;"><img src="images/project/luberci/16-1.jpg"></a>
-							  <a data-slide-index="23" href="javascript:;"><img src="images/project/luberci/17-1.jpg"></a>
+							  <a data-slide-index="2" href="javascript:;"><img src="images/project/luberci/3.jpg"></a>
+							  <a data-slide-index="3" href="javascript:;"><img src="images/project/luberci/4.jpg"></a>
+							  <a data-slide-index="4" href="javascript:;"><img src="images/project/luberci/5.jpg"></a>
+							  <a data-slide-index="5" href="javascript:;"><img src="images/project/luberci/6.jpg"></a>
+							  <a data-slide-index="6" href="javascript:;"><img src="images/project/luberci/7.jpg"></a>
+							  <a data-slide-index="7" href="javascript:;"><img src="images/project/luberci/8.jpg"></a>
+							  <a data-slide-index="8" href="javascript:;"><img src="images/project/luberci/1-1.jpg"></a>
+							  <a data-slide-index="9" href="javascript:;"><img src="images/project/luberci/2-1.jpg"></a>
+							  <a data-slide-index="10" href="javascript:;"><img src="images/project/luberci/3-1.jpg"></a>
+							  <a data-slide-index="11" href="javascript:;"><img src="images/project/luberci/4-1.jpg"></a>
+							  <a data-slide-index="12" href="javascript:;"><img src="images/project/luberci/5-1.jpg"></a>
+							  <a data-slide-index="13" href="javascript:;"><img src="images/project/luberci/6-1.jpg"></a>
+							  <a data-slide-index="14" href="javascript:;"><img src="images/project/luberci/7-1.jpg"></a>
+							  <a data-slide-index="15" href="javascript:;"><img src="images/project/luberci/8-1.jpg"></a>
+							  <a data-slide-index="16" href="javascript:;"><img src="images/project/luberci/9-1.jpg"></a>
+							  <a data-slide-index="17" href="javascript:;"><img src="images/project/luberci/10-1.jpg"></a>
+							  <a data-slide-index="18" href="javascript:;"><img src="images/project/luberci/11-1.jpg"></a>
+							  <a data-slide-index="19" href="javascript:;"><img src="images/project/luberci/12-1.jpg"></a>
+							  <a data-slide-index="20" href="javascript:;"><img src="images/project/luberci/13-1.jpg"></a>
+							  <a data-slide-index="21" href="javascript:;"><img src="images/project/luberci/14-1.jpg"></a>
+							  <a data-slide-index="22" href="javascript:;"><img src="images/project/luberci/15-1.jpg"></a>
+							  <a data-slide-index="23" href="javascript:;"><img src="images/project/luberci/16-1.jpg"></a>
+							  <a data-slide-index="24" href="javascript:;"><img src="images/project/luberci/17-1.jpg"></a>
 							</div>
 						</div>
 						<div class="center project-pdf">
@@ -495,10 +497,10 @@
 						<div class="form-box__title">
 							<!-- <span>Акция!</span> скидка 10% <br>
 							На дизайн-проект -->
-							Заказать <br>
+							Заказажите <br>
 							дизайн проект
 						</div>
-						<div class="form-box__title_min">При заказе с сайта!</div>
+						<!-- <div class="form-box__title_min">При заказе с сайта!</div> -->
 					</div>
 					<div class="form-box__body">
 						<form class="form ajaxform" method="post">
@@ -901,8 +903,8 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>
-<script src="js/scripts.js"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="js/scripts.js"></script>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">

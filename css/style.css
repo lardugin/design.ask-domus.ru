@@ -7337,6 +7337,14 @@ a:hover {
 .fancybox-nav {
   position: fixed;
 }
+.fancybox-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(255,255,255,0.7);
+  padding: 10px 16px;
+  font-size: 16px;
+}
 .mfp-close-btn-in .mfp-close {
   opacity: 1;
   right: 10px;

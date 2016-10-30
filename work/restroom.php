@@ -1,7 +1,130 @@
 <div class="work__cont-item">   <!-- Ванные и санузлы -->
 	<div class="portfolio">
 		<div class="portfolio__item">
-			<a href="images/portfolio/restroom/balashiha/1.jpg" class="fancybox" rel="restroom-balashiha">
+			<a href="images/portfolio/restroom/bristol/1.jpg" class="fancybox" rel="restroom" title="Бристоль">
+				<span class="fake-img" data-src="images/portfolio/restroom/bristol/0.jpg"></span>
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Бристоль</div>
+						<div class="portfolio-mask__square">Дом - 280 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden"></div>
+		</div>
+
+		<div class="portfolio__item">
+			<a href="images/portfolio/restroom/bristol-san-uzel/1.jpg" class="fancybox" rel="restroom" title="Бристоль">
+				<span class="fake-img" data-src="images/portfolio/restroom/bristol-san-uzel/0.jpg"></span>
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Бристоль</div>
+						<div class="portfolio-mask__square">Дом - 280 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden"></div>
+		</div>
+
+		<div class="portfolio__item">
+			<a href="images/portfolio/restroom/Ignatovo/1.jpg" class="fancybox" rel="restroom" title="Игнатово">
+				<span class="fake-img" data-src="images/portfolio/restroom/Ignatovo/0.jpg"></span>
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Игнатово</div>
+						<div class="portfolio-mask__square">Дом - 240 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+				<a href="images/portfolio/restroom/Ignatovo/2.jpg" rel="restroom" class="fancybox" title="Игнатово"></a>
+			</div>
+		</div>
+
+		<div class="portfolio__item">
+			<a href="images/portfolio/restroom/nagatino/1.jpg" class="fancybox" rel="restroom" title="Нагатинское">
+				<span class="fake-img" data-src="images/portfolio/restroom/nagatino/0.jpg"></span>
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Нагатинское</div>
+						<div class="portfolio-mask__square">Дом - 282 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+				<a href="images/portfolio/restroom/nagatino/2.jpg" rel="restroom" class="fancybox" title="Нагатинское"></a>
+			</div>
+		</div>
+
+		<div class="portfolio__item">
+			<a href="images/portfolio/restroom/troparevo/1.jpg" class="fancybox" rel="restroom" title="Тропарево">
+				<span class="fake-img" data-src="images/portfolio/restroom/troparevo/0.jpg"></span>
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Тропарево</div>
+						<div class="portfolio-mask__square">Квартира - 64 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+			</div>
+		</div>
+
+		<div class="portfolio__item">
+			<a href="images/portfolio/restroom/shishkin-les/1.jpg" class="fancybox" rel="restroom" title="Шишкин лес">
+				<span class="fake-img" data-src="images/portfolio/restroom/shishkin-les/0.jpg"></span>
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Шишкин лес</div>
+						<div class="portfolio-mask__square">Дом - 240 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+				<a href="images/portfolio/restroom/shishkin-les/2.jpg" rel="restroom" class="fancybox" title="Шишкин лес"></a>
+				<a href="images/portfolio/restroom/shishkin-les/3.jpg" rel="restroom" class="fancybox" title="Шишкин лес"></a>
+			</div>
+		</div>
+
+		<div class="portfolio__item">
+			<a href="images/portfolio/restroom/pyatnickya/1.jpg" class="fancybox" rel="restroom" title="Пятницкое шоссе">
+				<span class="fake-img" data-src="images/portfolio/restroom/pyatnickya/0.jpg"></span>
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Пятницкое шоссе</div>
+						<div class="portfolio-mask__square">Квартира - 80 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+			</div>
+		</div>
+
+		<div class="portfolio__item">
+			<a href="images/portfolio/restroom/dubna/1.jpg" class="fancybox" rel="restroom" title="Малая дубна">
+				<span class="fake-img" data-src="images/portfolio/restroom/dubna/0.jpg"></span>
+				<div class="portfolio-mask">
+					<div class="mask__inner">
+						<div class="portfolio-mask__heading">Малая дубна</div>
+						<div class="portfolio-mask__square">Дом - 350 м<sup>2</sup></div>
+						<div class="portfolio-mask__price">м<sup>2</sup></div>
+					</div>
+				</div>
+			</a>
+			<div class="hidden">
+			<a href="images/portfolio/restroom/dubna/2.jpg" rel="restroom" class="fancybox" title="Малая дубна"></a>
+			</div>
+		</div>
+
+		<div class="portfolio__item">
+			<a href="images/portfolio/restroom/balashiha/1.jpg" class="fancybox" rel="restroom" title="Балашиха">
 				<span class="fake-img" data-src="images/portfolio/restroom/balashiha/0.jpg"></span>
 				<div class="portfolio-mask">
 					<div class="mask__inner">
@@ -12,136 +135,9 @@
 				</div>
 			</a>
 			<div class="hidden">
-				<a href="images/portfolio/restroom/balashiha/2.jpg" rel="restroom-balashiha" class="fancybox"></a>
-				<a href="images/portfolio/restroom/balashiha/3.jpg" rel="restroom-balashiha" class="fancybox"></a>
+				<a href="images/portfolio/restroom/balashiha/2.jpg" rel="restroom" class="fancybox" title="Балашиха"></a>
+				<a href="images/portfolio/restroom/balashiha/3.jpg" rel="restroom" class="fancybox" title="Балашиха"></a>
 			</div>
-		</div>
-
-		<div class="portfolio__item">
-			<a href="images/portfolio/restroom/bristol-san-uzel/1.jpg" class="fancybox" rel="restroom-bristol-san-uzel">
-				<span class="fake-img" data-src="images/portfolio/restroom/bristol-san-uzel/0.jpg"></span>
-				<div class="portfolio-mask">
-					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Бристоль</div>
-						<div class="portfolio-mask__square">Дом - 252 м<sup>2</sup></div>
-						<div class="portfolio-mask__price">м<sup>2</sup></div>
-					</div>
-				</div>
-			</a>
-			<div class="hidden">
-
-			</div>
-		</div>
-
-		<div class="portfolio__item">
-			<a href="images/portfolio/restroom/garibaldi-detskaya-vannaya/1.jpg" class="fancybox" rel="restroom-garibaldi-detskaya-vannaya">
-				<span class="fake-img" data-src="images/portfolio/restroom/garibaldi-detskaya-vannaya/0.jpg"></span>
-				<div class="portfolio-mask">
-					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Гариабальди</div>
-						<div class="portfolio-mask__square">Квартира - 80 м<sup>2</sup></div>
-						<div class="portfolio-mask__price">м<sup>2</sup></div>
-					</div>
-				</div>
-			</a>
-			<div class="hidden">
-
-			</div>
-		</div>
-
-		<div class="portfolio__item">
-			<a href="images/portfolio/restroom/Ignatovo/1.jpg" class="fancybox" rel="restroom-Ignatovo">
-				<span class="fake-img" data-src="images/portfolio/restroom/Ignatovo/0.jpg"></span>
-				<div class="portfolio-mask">
-					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Игнатово</div>
-						<div class="portfolio-mask__square">Дом - 198 м<sup>2</sup></div>
-						<div class="portfolio-mask__price">м<sup>2</sup></div>
-					</div>
-				</div>
-			</a>
-			<div class="hidden">
-				<a href="images/portfolio/restroom/Ignatovo/2.jpg" rel="restroom-Ignatovo" class="fancybox"></a>
-			</div>
-		</div>
-
-		<div class="portfolio__item">
-			<a href="images/portfolio/restroom/luhovici-vannaya-dushevaya/1.jpg" class="fancybox" rel="restroom-luhovici-vannaya-dushevaya">
-				<span class="fake-img" data-src="images/portfolio/restroom/luhovici-vannaya-dushevaya/0.jpg"></span>
-				<div class="portfolio-mask">
-					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Луховицы</div>
-						<div class="portfolio-mask__square">Дом - 142 м<sup>2</sup></div>
-						<div class="portfolio-mask__price">м<sup>2</sup></div>
-					</div>
-				</div>
-			</a>
-			<div class="hidden">
-
-			</div>
-		</div>
-
-		<div class="portfolio__item">
-			<a href="images/portfolio/restroom/lyalin-pereulok/1.jpg" class="fancybox" rel="restroom-lyalin-pereulok">
-				<span class="fake-img" data-src="images/portfolio/restroom/lyalin-pereulok/0.jpg"></span>
-				<div class="portfolio-mask">
-					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Лялин переулок</div>
-						<div class="portfolio-mask__square">Квартира - 80 м<sup>2</sup></div>
-						<div class="portfolio-mask__price">м<sup>2</sup></div>
-					</div>
-				</div>
-			</a>
-			<div class="hidden">
-			</div>
-		</div>
-
-		<div class="portfolio__item">
-			<a href="images/portfolio/restroom/lyuberci/1.jpg" class="fancybox" rel="restroom-lyuberci">
-				<span class="fake-img" data-src="images/portfolio/restroom/lyuberci/0.jpg"></span>
-				<div class="portfolio-mask">
-					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Люберцы</div>
-						<div class="portfolio-mask__square">Квартира - 84 м<sup>2</sup></div>
-						<div class="portfolio-mask__price">м<sup>2</sup></div>
-					</div>
-				</div>
-			</a>
-			<div class="hidden">
-			</div>
-		</div>
-
-		<div class="portfolio__item">
-			<a href="images/portfolio/restroom/malaya-dubna-san-uzel na-vtorom-etaje/1.jpg" class="fancybox" rel="restroom-malaya-dubna-san-uzel na-vtorom-etaje">
-				<span class="fake-img" data-src="images/portfolio/restroom/malaya-dubna-san-uzel na-vtorom-etaje/0.jpg"></span>
-				<div class="portfolio-mask">
-					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Малая дубна</div>
-						<div class="portfolio-mask__square">Квартира - ??? м<sup>2</sup></div>
-						<div class="portfolio-mask__price">м<sup>2</sup></div>
-					</div>
-				</div>
-			</a>
-			<div class="hidden">
-				<a href="images/portfolio/restroom/malaya-dubna-san-uzel na-vtorom-etaje/2.jpg" rel="restroom-malaya-dubna-san-uzel na-vtorom-etaje" class="fancybox"></a>
-			</div>
-		</div>
-
-		<div class="portfolio__item">
-			<a href="images/portfolio/restroom/shishkin-les/1.jpg" class="fancybox" rel="restroom-shishkin-les">
-				<span class="fake-img" data-src="images/portfolio/restroom/shishkin-les/0.jpg"></span>
-				<div class="portfolio-mask">
-					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Шишкин лес</div>
-						<div class="portfolio-mask__square">Квартира - 120 м<sup>2</sup></div>
-						<div class="portfolio-mask__price">м<sup>2</sup></div>
-					</div>
-				</div>
-			</a>
-			<div class="hidden">
-				<a href="images/portfolio/restroom/shishkin-les/2.jpg" rel="restroom-shishkin-les" class="fancybox"></a>
-				<a href="images/portfolio/restroom/shishkin-les/3.jpg" rel="restroom-shishkin-les" class="fancybox"></a>
-			</div>
-		</div>
+		</div>		
 	</div>
 </div>

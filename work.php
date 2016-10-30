@@ -1,7 +1,7 @@
 <div class="work">
 	<div class="work__tab-list">
-		<div class="work__tab-item"><a href="javascript:;">Квартиры</a></div>
-		<div class="work__tab-item active"><a href="javascript:;">Загородные дома</a></div>
+		<div class="work__tab-item active"><a href="javascript:;">Квартиры</a></div>
+		<div class="work__tab-item"><a href="javascript:;">Загородные дома</a></div>
 		<div class="work__tab-item"><a href="javascript:;">Кухни</a></div>
 		<div class="work__tab-item"><a href="javascript:;">Кабинеты</a></div>
 		<div class="work__tab-item"><a href="javascript:;">Гостиные</a></div>
