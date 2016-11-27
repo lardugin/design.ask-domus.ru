@@ -164,6 +164,13 @@ $(document).ready(function(){
 	// }
 
 
+	var workClickCount = 0;
+	$('#work').on('click', function() {
+		workClickCount++;
+		if(workClickCount > 15) {
+			yaCounter38644345.reachGoal('CLICK_TO_PORTFOLIO')
+		}
+	});
 
 
 	ymaps.ready(init);

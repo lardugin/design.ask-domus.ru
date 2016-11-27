@@ -268,7 +268,7 @@
 								900<span>₽</span> м<sup>2</sup>
 							</div>
 							<div class="price-card__button">
-								<a href="javascript:;" class="button button_green button_arrow">Подробнее</a>
+								<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIN')">Подробнее</a>
 							</div>
 						</div>
 					</div>
@@ -310,7 +310,7 @@
 								1 300<span>₽</span> м<sup>2</sup>
 							</div>
 							<div class="price-card__button">
-								<a href="javascript:;" class="button button_green button_arrow">Подробнее</a>
+								<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIDDLE')">Подробнее</a>
 							</div>
 						</div>
 					</div>
@@ -349,7 +349,7 @@
 								1 500<span>₽</span> м<sup>2</sup>
 							</div>
 							<div class="price-card__button">
-								<a href="javascript:;" class="button button_green button_arrow">Подробнее</a>
+								<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MAX')">Подробнее</a>
 							</div>
 						</div>
 					</div>
@@ -409,7 +409,7 @@
 							Ванная комната, вместившая раковину, встроенную мебель и достаточно просторную ванну, а также биде, унитаз и стиральную машину, решена в сочетании классического белого и сочного оранжевого цвета. Она выглядит достаточно ярко и интересно, несмотря на свою лаконичность.
 						</div>
 						<div class="center project-pdf">
-							<a href="doc/Lyubercy.pdf" target="_blank" class="button button_green button_arrow">Скачать дизайн проект</a>
+							<a href="doc/Lyubercy.pdf" target="_blank" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('VIEW_PDF')">Скачать дизайн проект</a>
 						</div>
 					</div>
 					<div class="project__right">
@@ -471,7 +471,7 @@
 							</div>
 						</div>
 						<div class="center project-pdf">
-							<a href="doc/Lyubercy.pdf" target="_blank" class="button button_green button_arrow">Скачать дизайн проект</a>
+							<a href="doc/Lyubercy.pdf" target="_blank" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('VIEW_PDF')">Скачать дизайн проект</a>
 						</div>
 					</div>		
 				</div>
