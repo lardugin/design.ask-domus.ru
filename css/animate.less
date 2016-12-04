@@ -168,3 +168,60 @@
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight;
 }
+
+@-webkit-keyframes scaleout {
+    0% {
+        opacity: 0;
+    }
+    84% {
+        opacity: 0;
+    }
+    85% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    90% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: .4;
+    }
+    95% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}
+@keyframes scaleout {
+    0% {
+        opacity: 0;
+    }
+    84% {
+        opacity: 0;
+    }
+    85% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    90% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: .4;
+    }
+    95% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}

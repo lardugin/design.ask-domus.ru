@@ -7271,6 +7271,62 @@ td {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight;
 }
+@-webkit-keyframes scaleout {
+  0% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: .4;
+  }
+  95% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+@keyframes scaleout {
+  0% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: .4;
+  }
+  95% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
 html {
   height: 100%;
   overflow-y: scroll;
@@ -7539,6 +7595,23 @@ a:hover {
   top: 20px;
   right: 25px;
   background: url(../images/button_arrow.png) no-repeat;
+}
+.button_scaleout {
+  position: relative;
+}
+.button_scaleout:before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  right: 10px;
+  margin-top: -20px;
+  background: #6f59de;
+  opacity: 0;
+  border-radius: 100%;
+  -webkit-animation: scaleout 8s infinite ease-in-out;
+  animation: scaleout 8s infinite ease-in-out;
 }
 @media (max-width: 1199px) {
   .form-box {
@@ -8126,11 +8199,11 @@ header * {
 }
 .project_control .bx-prev {
   background-image: url(../images/left.png);
-  left: 0px;
+  left: 0;
 }
 .project_control .bx-next {
   background-image: url(../images/right.png);
-  right: 0px;
+  right: 0;
 }
 @media (max-width: 1199px) {
   .project__left {
@@ -8174,7 +8247,7 @@ header * {
 .promo-text {
   text-transform: uppercase;
   color: #f7f7f9;
-  padding-top: 140px;
+  padding-top: 116px;
 }
 .promo-text p {
   margin-bottom: 0;
@@ -8359,7 +8432,7 @@ header * {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 14px;
   color: #7b7b7b;
-  padding: 0px 31px;
+  padding: 0 31px;
   height: 169px;
   overflow-y: auto;
 }
@@ -8367,7 +8440,7 @@ header * {
   .servise-mask__heading_back,
   .servise-mask__heading {
     height: 65px;
-    padding: 0px 15px;
+    padding: 0 15px;
     font-size: 17px;
   }
   .servise-mask__heading_back span,
@@ -8376,7 +8449,7 @@ header * {
     height: 65px;
   }
   .servise-mask__text {
-    padding: 0px 15px;
+    padding: 0 15px;
     height: 136px;
   }
 }
@@ -8405,11 +8478,6 @@ header * {
   margin-left: -6px;
   margin-right: -6px;
   margin-bottom: 15px;
-}
-.price-card__list:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 .price-card__item {
   float: left;
@@ -8455,6 +8523,12 @@ header * {
   background: url(../images/price-card-arrow.png) no-repeat;
   background-position: 5px 5px;
 }
+.price-card-arrow.button_scaleout:before {
+  right: 0;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+}
 .price-card-arrow:hover {
   background-position: 5px -63px;
 }
@@ -8472,11 +8546,11 @@ header * {
   text-align: center;
 }
 .price-card__icon {
-  padding: 67px 0 60px;
+  padding: 45px 0;
 }
 .price-card__price {
   color: #59596c;
-  font-size: 26px;
+  font-size: 34px;
   font-weight: 700;
   margin-bottom: 40px;
 }
@@ -8484,7 +8558,16 @@ header * {
   font-weight: 500;
 }
 .price-card__price sup {
-  font-size: 16px;
+  font-size: 20px;
+}
+.price-card__price_old {
+  font-size: 20px;
+  color: #FD5A3E;
+  text-decoration: line-through;
+  margin-bottom: 5px;
+}
+.price-card__price_old sup {
+  font-size: 14px;
 }
 .price-card__price_min {
   color: #34a462;
@@ -8508,9 +8591,13 @@ header * {
 .price-card__button .button {
   max-width: 230px;
 }
+.flip-container.goFlip .button_scaleout:before {
+  -webkit-animation: none;
+  animation: none;
+}
 .price-card_back {
   background-color: #fff;
-  padding: 0px 30px;
+  padding: 0 30px;
   -webkit-box-shadow: 0 2px 25px rgba(0,0,0,0.5);
   -moz-box-shadow: 0 2px 25px rgba(0,0,0,0.5);
   box-shadow: 0 2px 25px rgba(0,0,0,0.5);
@@ -8532,7 +8619,7 @@ header * {
 .price-card__text ul li:after {
   content: '-';
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
 }
 .price-card__text .pills {
@@ -8554,7 +8641,7 @@ header * {
 }
 @media (max-width: 1199px) {
   .price-card_back {
-    padding: 0px 20px;
+    padding: 0 20px;
   }
   .price-card__text {
     padding-top: 16px;
@@ -8569,10 +8656,7 @@ header * {
     padding: 0px 20px;
   }
   .price-card__icon {
-    padding: 75px 0 60px;
-  }
-  .price-card__price {
-    margin-bottom: 50px;
+    padding: 54px 0;
   }
   .price-card__text {
     font-size: 13px;
@@ -8765,7 +8849,7 @@ header * {
 @media (max-width: 1199px) {
   .review__info {
     width: 760px;
-    padding-top: 0px;
+    padding-top: 0;
   }
 }
 @media (max-width: 991px) {
@@ -8904,7 +8988,7 @@ header * {
   height: 17px;
   background: url(../images/contacts-icon.png) no-repeat;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
 }
 .map-card-list__item:last-child {
@@ -8915,13 +8999,13 @@ header * {
   vertical-align: middle;
 }
 .map-card-list__item_addres:after {
-  background-position: 0px 0px;
+  background-position: 0 0;
 }
 .map-card-list__item_email:after {
-  background-position: 0px -28px;
+  background-position: 0 -28px;
 }
 .map-card-list__item_phone:after {
-  background-position: 0px -56px;
+  background-position: 0 -56px;
 }
 .map-card-list__item_social:after {
   display: none;
@@ -8944,20 +9028,20 @@ header * {
   display: block;
 }
 .social-list__item.fb a {
-  background-position: 5px 0px;
+  background-position: 5px 0;
 }
 .social-list__item.fb a:hover {
   background-position: 5px -31px;
 }
 .social-list__item.vk a {
   margin-right: 3px;
-  background-position: -13px 0px;
+  background-position: -13px 0;
 }
 .social-list__item.vk a:hover {
   background-position: -13px -31px;
 }
 .social-list__item.in a {
-  background-position: -37px 0px;
+  background-position: -37px 0;
 }
 .social-list__item.in a:hover {
   background-position: -37px -31px;
@@ -9094,13 +9178,13 @@ header * {
   opacity: 0.7;
 }
 .massegers-list li .item.tg {
-  background-position: 0px 0px;
+  background-position: 0 0;
 }
 .massegers-list li .item.wt {
-  background-position: -49px 0px;
+  background-position: -49px 0;
 }
 .massegers-list li .item.vb {
-  background-position: -98px 0px;
+  background-position: -98px 0;
 }
 @media (max-width: 1199px) {
   .elina {

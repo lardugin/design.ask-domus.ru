@@ -236,6 +236,27 @@
   }
 }
 
+.button_scaleout {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+
+        top: 50%;
+        right: 10px;
+        margin-top: -20px;
+
+        background: #6f59de;
+        opacity: 0;
+        border-radius: 100%;
+        -webkit-animation: scaleout 8s infinite ease-in-out;
+        animation: scaleout 8s infinite ease-in-out;
+    }
+}
+
 @media ( max-width: 1199px ) {
   .form-box {
     max-width: 400px;

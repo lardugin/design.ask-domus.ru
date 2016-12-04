@@ -85,7 +85,7 @@
 			<div class="info__form">
 				<form method="post" class="ajaxform">
 					<input type="text" name="phone" placeholder="Ваш Телефон" class="input input_info" required>
-					<button type="submit" class="button button_green button_info button_arrow">Обсудить проект</button>
+					<button type="submit" class="button button_green button_info button_arrow" onclick="yaCounter38644345.reachGoal('CALLBACK')">Обсудить проект</button>
 				</form>
 			</div>
 		</section>
@@ -258,17 +258,20 @@
 					<div class="price-card flipper__area_front flipper__area">
 						<div class="price-card__headline">
 							<span>Эскизный</span>
-							<a href="javascript:;" class="price-card-arrow"></a>
+							<a href="javascript:;" class="price-card-arrow button_scaleout"></a>
 						</div>
 						<div class="price-card__body">
 							<div class="price-card__icon">
 								<img src="images/price/icon-1.png" alt="Эскизный">
 							</div>
+							<div class="price-card__price price-card__price_old">
+								1200<span>₽</span> м<sup>2</sup>
+							</div>
 							<div class="price-card__price">
 								900<span>₽</span> м<sup>2</sup>
 							</div>
 							<div class="price-card__button">
-								<a href="javascript:;" class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIN')">Подробнее</a>
+								<a href="javascript:;" class="button button_green button_arrow button_scaleout" onclick="yaCounter38644345.reachGoal('LOOKED_PRICE_MIN')">Подробнее</a>
 							</div>
 						</div>
 					</div>
@@ -305,6 +308,9 @@
 						<div class="price-card__body">
 							<div class="price-card__icon">
 								<img src="images/price/icon-2.png" alt="Рабочий">
+							</div>
+							<div class="price-card__price price-card__price_old">
+								1700<span>₽</span> м<sup>2</sup>
 							</div>
 							<div class="price-card__price">
 								1 300<span>₽</span> м<sup>2</sup>
@@ -344,6 +350,9 @@
 						<div class="price-card__body">
 							<div class="price-card__icon">
 								<img src="images/price/icon-3.png" alt="Полный">
+							</div>
+							<div class="price-card__price price-card__price_old">
+								2000<span>₽</span> м<sup>2</sup>
 							</div>
 							<div class="price-card__price">
 								1 500<span>₽</span> м<sup>2</sup>
@@ -489,6 +498,7 @@
 					<p class="promo-text_bold">Огромное портфолио</p>
 					<p class="promo-text_semilight">Работаем по договору</p>
 					<p class="promo-text_semibold">Имеем все лицензии</p>
+					<p class="promo-text_light">Участники СРО</p>
 				</div>
 			</div>
 			<div class="col-sm-6">
@@ -497,7 +507,7 @@
 						<div class="form-box__title">
 							<!-- <span>Акция!</span> скидка 10% <br>
 							На дизайн-проект -->
-							Заказажите <br>
+							Закажите <br>
 							дизайн проект
 						</div>
 						<!-- <div class="form-box__title_min">При заказе с сайта!</div> -->
@@ -517,12 +527,12 @@
 								<input type="tel" name="phone" class="input" placeholder="+7 (495) 000 0000" required>
 							</div>
 							<div class="form-row_button">
-								<button class="button button_green button_arrow">Отправить</button>
+								<button class="button button_green button_arrow" onclick="yaCounter38644345.reachGoal('ORDER')">Отправить</button>
 							</div>
 						</form>
 					</div>
 					<div class="form-box__footer">
-						Ваши контактные данные в безопасности и не будут <br> переданы третьим лицам
+						Ваши контактные данные в безопасности и не будут <br> переданы третьим лицам.
 					</div>
 				</div>
 			</div>
@@ -849,7 +859,7 @@
 				<div class="info__form info__form_bottom">
 					<form  method="post" class="ajaxform">
 						<input type="text" name="phone" placeholder="Ваш Телефон" class="input input_info" required>
-						<button type="submit" class="button button_green button_info button_arrow">Заказать звонок</button>
+						<button type="submit" class="button button_green button_info button_arrow" onclick="yaCounter38644345.reachGoal('CALLBACK')">Заказать звонок</button>
 					</form>
 				</div>
 				<div class="ps__item ps__item_massegers">
@@ -907,7 +917,7 @@
 <script src="js/scripts.js"></script>
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
@@ -934,8 +944,8 @@
             d.addEventListener("DOMContentLoaded", f, false);
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/38644345" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+</script> -->
+<!-- <noscript><div><img src="https://mc.yandex.ru/watch/38644345" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
 <!-- /Yandex.Metrika counter -->
 
 <!-- Chatra {literal} -->

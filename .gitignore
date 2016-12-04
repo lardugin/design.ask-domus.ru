@@ -1,4 +1,5 @@
 # webStorm
 /.idea/
-
-
+.idea
+.DS_Store
+*.log
