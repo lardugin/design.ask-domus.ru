@@ -33,8 +33,8 @@
 					<div class="top-line">
 						<div class="row">
 							<div class="col-sm-9 col-md-8">
-								<a href="https://yandex.ru/maps/213/moscow/?ol=biz&oid=1189178535&from=1org_photo&ll=37.631871%2C55.770578&z=15" rel="nofollow" target="_blank" class="top-line__item">г.Москва, ул. Серетенка, дом 27/29, стр. 1, офис 2</a>
-								<a href="https://yandex.ru/maps/213/moscow/?ol=biz&oid=1189178535&from=1org_photo&ll=37.631871%2C55.770578&z=15" rel="nofollow" target="_blank" class="top-line__item"><img src="images/m.png"> Сухаревская</a>
+								<a href="https://yandex.ru/maps/213/moscow/?ol=biz&oid=1189178535&from=1org_photo&ll=37.631871%2C55.770578&z=15" rel="nofollow" target="_blank" class="top-line__item">г.Москва, ул. Проспект мира, дом 102, стр. 12, офис 0.3</a>
+								<a href="https://yandex.ru/maps/213/moscow/?ol=biz&oid=1189178535&from=1org_photo&ll=37.631871%2C55.770578&z=15" rel="nofollow" target="_blank" class="top-line__item"><img src="images/m.png"> Алексеевская</a>
 							</div>
 							<div class="col-sm-3 col-md-4 text-right">
 								<span class="phone-top"><b>+7 (495)</b> 220-38-44</span>
@@ -812,8 +812,8 @@
 			<div class="map-card__heading">Контакты</div>
 			<ul class="map-card__list">
 				<li class="map-card-list__item map-card-list__item_addres">
-					107051, РФ, г. Москва,<br>
-					ул. Сретенка, дом. 27/29, стр.1 офис 2
+					129626, РФ, г. Москва,<br>
+					Проспект мира, дом 102, стр. 12, офис 0.3
 				</li>
 				<li class="map-card-list__item map-card-list__item_email">
 					info@ask-domus.ru

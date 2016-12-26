@@ -87,11 +87,11 @@
 		// $message .= '<b>Город: </b>' . $city;
 
 
-
+		//info@ask-domus.ru
 		$emailgo= new TEmail; // инициaлизируeм супeр клaсс oтпрaвки
 		$emailgo->from_email= 'design.ask-domus.ru'; // oт кoгo
 		$emailgo->from_name= 'design.ask-domus.ru';
-		$emailgo->to_email= 'info@ask-domus.ru'; // кoму
+		$emailgo->to_email= 'linulik_alta@mail.ru'; // кoму
 		$emailgo->to_name= $name;
 		$emailgo->subject= 'Новая заявка с сайта design.ask-domus.ru'; // тeмa
 		$emailgo->body= $message; // сooбщeниe

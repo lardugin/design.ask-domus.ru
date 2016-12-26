@@ -177,14 +177,14 @@ $(document).ready(function(){
 
 	function init(){     
 	  var myMap = new ymaps.Map ("map", {
-	    center: ['55.771382', '37.637189'],
-	    zoom: 16,
+	    center: ['55.801593', '37.643278'],
+	    zoom: 15,
 	    controls: ['smallMapDefaultSet']
 	  });
 
 	  myMap.behaviors.disable('scrollZoom');
 
-    var myPlacemark  = new ymaps.Placemark(['55.771382', '37.632189'], {}, {
+    var myPlacemark  = new ymaps.Placemark(['55.801593', '37.637278'], {}, {
       // iconLayout: 'default#image',
       // iconImageHref: 'images/mapicon.png',
       // iconImageSize: [197, 115],
