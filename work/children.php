@@ -45,7 +45,6 @@
 				</div>
 			</a>
 			<div class="hidden">
-				<a href="images/portfolio/children/dubna/2.jpg" rel="children" class="fancybox" title="Малая Дубна"></a>
 			</div>
 		</div>
 
