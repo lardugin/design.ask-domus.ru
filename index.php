@@ -812,7 +812,7 @@
 			<div class="map-card__heading">Контакты</div>
 			<ul class="map-card__list">
 				<li class="map-card-list__item map-card-list__item_addres">
-					129626, РФ, г. Москва,<br>
+					129626, г. Москва,<br>
 					Проспект мира, дом 102, стр. 12, офис 0.3
 				</li>
 				<li class="map-card-list__item map-card-list__item_email">

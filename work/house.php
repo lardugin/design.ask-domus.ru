@@ -138,7 +138,7 @@
 				<span class="fake-img" data-src="images/portfolio/house/nagatino/0.jpg"></span>
 				<div class="portfolio-mask">
 					<div class="mask__inner">
-						<div class="portfolio-mask__heading">Нагатинское</div>
+						<div class="portfolio-mask__heading">Нагатино</div>
 						<div class="portfolio-mask__square">Дом - 282 м<sup>2</sup></div>
 						<div class="portfolio-mask__price">м<sup>2</sup></div>
 					</div>
